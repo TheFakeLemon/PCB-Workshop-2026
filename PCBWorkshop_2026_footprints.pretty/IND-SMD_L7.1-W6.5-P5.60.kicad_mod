@@ -1,0 +1,281 @@
+(footprint "IND-SMD_L7.1-W6.5-P5.60"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "IND-SMD_L7.1-W6.5-P5.60 footprint")
+	(tags "IND-SMD_L7.1-W6.5-P5.60 footprint C87572")
+	(property "Reference" "REF**"
+		(at 0 2.5 0)
+		(layer "F.SilkS")
+		(uuid "51a0c6c6-04b4-44df-9f5a-b20d4737e38f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1uH"
+		(at 0.000254 5.4 0)
+		(layer "F.Fab")
+		(uuid "dcd91dd5-f366-4b85-a284-2766f4a75356")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://item.szlcsc.com/datasheet/SMNR4020-1UH/146572.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1dc5ba85-988a-4a74-be00-ae53bd4a4a6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductance:1uH Tolerance:±20% Tolerance:±20% Current Rating:- Current - Saturation(Isat):4.78A DC Resistance(DCR):38mΩ"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b853f47-ca81-4e88-a9da-51c97f055457")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "SMNR4020-1UH"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "647ed2c4-8271-4714-b0cf-44da8c8f6159")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "SXN(顺翔诺)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f84c77ae-76c6-4a78-a0be-ff0cfaef82d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier Part" "C135261"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00bc0f72-e45e-4999-81d5-64ed858fba43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "LCSC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16b1d8aa-3044-499f-bc5b-10bdcfec12bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part Name" "1uH ±20% 4.78A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcbc8a70-9311-40ec-82f9-6cadacdb6397")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.7 -3.4)
+		(end -3.7 -1.93114)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a93cfb6b-5a23-4943-a263-866c69e019c2")
+	)
+	(fp_line
+		(start -3.7 -3.4)
+		(end 3.7 -3.4)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb7331bb-8fb2-4ef0-85f2-eaf5aa964d67")
+	)
+	(fp_line
+		(start -3.7 1.93114)
+		(end -3.7 3.4)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2704419a-5220-4cba-8f8d-e6b59f677e63")
+	)
+	(fp_line
+		(start -2.794006 -3.302007)
+		(end -2.794006 -2.540005)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c3fe605-4664-4459-80dd-3b88eb430831")
+	)
+	(fp_line
+		(start -2.794006 -2.540005)
+		(end -3.556007 -2.540005)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e24670d3-0fe1-4b0d-8344-23eb3c0017c8")
+	)
+	(fp_line
+		(start 3.7 -3.4)
+		(end 3.7 -1.93114)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3adfb5f3-ee8e-43d4-8ae5-8cded4f73ba2")
+	)
+	(fp_line
+		(start 3.7 1.93114)
+		(end 3.7 3.4)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc5143fe-7f0c-412c-a265-b9a0bdd5092d")
+	)
+	(fp_line
+		(start 3.700508 3.4)
+		(end -3.699492 3.4)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01989e6e-468a-4395-a915-7ebb8d38faa8")
+	)
+	(fp_circle
+		(center -3.550013 3.250013)
+		(end -3.520015 3.250013)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a1b7a7b8-d986-427a-885c-67b15897ad76")
+	)
+	(fp_circle
+		(center 0.000254 0)
+		(end 1.143256 0)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8cb53be6-8865-4904-a669-aff777c504da")
+	)
+	(fp_poly
+		(pts
+			(xy -3.550013 -1.6) (xy -2 -1.6) (xy -2 1.6) (xy -3.550013 1.6)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "4007db90-465a-4e23-8249-40da4da39348")
+	)
+	(fp_poly
+		(pts
+			(xy 2 -1.6) (xy 3.550013 -1.6) (xy 3.550013 1.6) (xy 2 1.6)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "77f36b53-2e51-4f92-a434-ee66e9c01091")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.000254 0 0)
+		(layer "F.Fab")
+		(uuid "0565e1be-6ff8-4571-8e56-3327b9a6c545")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.800102 0)
+		(size 2 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "30743b59-422c-4bdc-be86-1f84722f35c2")
+	)
+	(pad "2" smd rect
+		(at 2.800102 0)
+		(size 2 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8dde5127-aa66-4a5a-9e92-84a82d198ae8")
+	)
+	(embedded_fonts no)
+	(model "packages3d/IND-SMD_L7.1-W6.5-P5.60.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

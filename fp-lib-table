@@ -1,3 +1,6 @@
 (fp_lib_table
+  (version 7)
   (lib (name "EasyEDA_Lib")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/EasyEDA_Lib/EasyEDA_Lib.elibz")(options "")(descr ""))
+  (lib (name "PCBWorkshop_2026")(type "KiCad")(uri "${KIPRJMOD}/PCBWorkshop_2026.pretty")(options "")(descr ""))
+  (lib (name "PCBWorkshop_2026_footprints")(type "KiCad")(uri "${KIPRJMOD}/PCBWorkshop_2026_footprints.pretty")(options "")(descr ""))
 )
