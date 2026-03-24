@@ -1861,6 +1861,142 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 76.2 80.01)
+		(end 209.55 149.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 030c1ded-b1ce-4168-96f1-9b4ae9a0a706)
+	)
+	(rectangle
+		(start 125.73 57.15)
+		(end 139.7 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 08483388-5672-4245-af69-56b63cad09db)
+	)
+	(rectangle
+		(start 193.04 57.15)
+		(end 203.2 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 203ba659-8140-4fef-8b06-e6e57a9ec9fe)
+	)
+	(rectangle
+		(start 76.2 144.78)
+		(end 86.36 149.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 45eba6d9-16b2-415b-87df-b1e35c7b0534)
+	)
+	(rectangle
+		(start 59.69 57.15)
+		(end 71.12 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4cc4cd11-9554-470f-b55f-b9a99c870861)
+	)
+	(rectangle
+		(start 125.73 22.86)
+		(end 190.5 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b4839797-3604-4c26-a9c3-8d23f7924f5f)
+	)
+	(rectangle
+		(start 193.04 31.75)
+		(end 209.55 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d16a8823-0e0b-4ec2-908c-a8e84d1002a4)
+	)
+	(rectangle
+		(start 59.69 22.86)
+		(end 123.19 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eaefc0e8-e6fd-4e88-9bd8-587973c0d39a)
+	)
+	(text "IP5306\n"
+		(exclude_from_sim no)
+		(at 81.026 147.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3d4e9c50-6ff3-413d-8545-4c6746429901")
+	)
+	(text "Battery\n"
+		(exclude_from_sim no)
+		(at 197.866 59.182 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5929b5c0-0cb4-40f4-a433-f4eb7b02b6cc")
+	)
+	(text "Input USB\n"
+		(exclude_from_sim no)
+		(at 65.024 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "90a08b90-0bd2-4edd-aae6-836f49708341")
+	)
+	(text "Output USB\n"
+		(exclude_from_sim no)
+		(at 132.334 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8f8898b-626f-420e-8f73-6217b901c556")
+	)
 	(junction
 		(at 177.8 92.71)
 		(diameter 0)
@@ -2177,7 +2313,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 34.29) (xy 210.82 36.83)
+			(xy 200.66 46.99) (xy 200.66 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2247,7 +2383,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 21.59) (xy 210.82 24.13)
+			(xy 200.66 34.29) (xy 200.66 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2836,7 +2972,7 @@
 		(uuid "0ea4ddfd-ea46-4ef8-8559-5e4558991b15")
 	)
 	(label "BAT"
-		(at 210.82 21.59 180)
+		(at 200.66 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2983,7 +3119,7 @@
 			(uuid "70d2093f-5fa3-4aad-900c-c26ea43e6855")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "#PWR04")
 					(unit 1)
@@ -3053,7 +3189,7 @@
 			(uuid "9ef85c51-3238-4b86-aa60-6400eba2cfe3")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "R3")
 					(unit 1)
@@ -3123,7 +3259,7 @@
 			(uuid "da98d4b6-dad1-489c-96e0-e84c7c96cb86")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "C7")
 					(unit 1)
@@ -3480,7 +3616,7 @@
 			(uuid "20b6c03d-eed8-42ac-b551-70d3f6b52880")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "C6")
 					(unit 1)
@@ -3490,7 +3626,7 @@
 	)
 	(symbol
 		(lib_id "PCBWorkshop_2026_symbols:BH-21700-A5BJ001")
-		(at 210.82 29.21 270)
+		(at 200.66 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3499,7 +3635,7 @@
 		(fields_autoplaced yes)
 		(uuid "13d87b09-3f10-4859-b6c4-aacc3c07674c")
 		(property "Reference" "U6"
-			(at 214.63 27.9399 90)
+			(at 204.47 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +3645,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 214.63 30.4799 90)
+			(at 204.47 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3655,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA_Lib:BAT-TH_BH-21700-A5BJ001"
-			(at 210.82 29.21 0)
+			(at 200.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3664,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/BH-21700-A5BJ001/21949526.html"
-			(at 210.82 29.21 0)
+			(at 200.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +3673,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 29.21 0)
+			(at 200.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +3682,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BH-21700-A5BJ001"
-			(at 210.82 29.21 0)
+			(at 200.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +3691,7 @@
 			)
 		)
 		(property "Manufacturer" "MYOUNG(美阳)"
-			(at 210.82 29.21 0)
+			(at 200.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +3700,7 @@
 			)
 		)
 		(property "Supplier Part" "C20606809"
-			(at 210.82 29.21 0)
+			(at 200.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +3709,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 210.82 29.21 0)
+			(at 200.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +3718,7 @@
 			)
 		)
 		(property "LCSC Part Name" "BH-21700-A5BJ001"
-			(at 210.82 29.21 0)
+			(at 200.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3597,7 +3733,7 @@
 			(uuid "7513fa40-a006-4b8c-8de6-be7d7916eced")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "U6")
 					(unit 1)
@@ -3730,7 +3866,7 @@
 			(uuid "2fe14be0-3331-46b8-9e43-b559a572194c")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "U1")
 					(unit 1)
@@ -3796,7 +3932,7 @@
 			(uuid "8d0c2412-1063-4560-b499-7ba85ef9e1f9")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "#PWR012")
 					(unit 1)
@@ -3862,7 +3998,7 @@
 			(uuid "55b8facf-a6c0-4f89-bc9c-f01ee9c57b74")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "#PWR06")
 					(unit 1)
@@ -3996,7 +4132,7 @@
 			(uuid "83b49d34-83e9-4785-8344-bdf1629dbe80")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "R5")
 					(unit 1)
@@ -4062,7 +4198,7 @@
 			(uuid "b9de3e7b-1e69-49d9-b086-6fe22d8a49f3")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "#PWR03")
 					(unit 1)
@@ -4130,7 +4266,7 @@
 			(uuid "e418efb5-3e19-4aca-82a2-7e1c8f1b1826")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "R1")
 					(unit 1)
@@ -4140,7 +4276,7 @@
 	)
 	(symbol
 		(lib_id "PCBWorkshop_2026_symbols:GND")
-		(at 210.82 36.83 0)
+		(at 200.66 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4149,7 +4285,7 @@
 		(fields_autoplaced yes)
 		(uuid "636d5e1d-aa37-4736-b344-fc8ce3269b35")
 		(property "Reference" "#PWR09"
-			(at 210.82 43.18 0)
+			(at 200.66 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4294,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 41.91 0)
+			(at 200.66 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +4302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 36.83 0)
+			(at 200.66 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +4311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 36.83 0)
+			(at 200.66 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 36.83 0)
+			(at 200.66 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4196,7 +4332,7 @@
 			(uuid "a877d454-641f-467b-9a2b-f0884e9ae624")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "#PWR09")
 					(unit 1)
@@ -4262,7 +4398,7 @@
 			(uuid "e9ed7fce-987d-496a-87c4-b1c562243cf2")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "#PWR01")
 					(unit 1)
@@ -4416,7 +4552,7 @@
 			(uuid "010cf341-aad7-4aea-9fc7-922041ce1bae")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "#PWR07")
 					(unit 1)
@@ -4486,7 +4622,7 @@
 			(uuid "ce8296f8-54fb-4124-adcd-d0324ee903c4")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "C3")
 					(unit 1)
@@ -4556,7 +4692,7 @@
 			(uuid "14e58aa1-6106-4aca-bee5-e39be6fd6b69")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "C2")
 					(unit 1)
@@ -4684,7 +4820,7 @@
 			(uuid "8dc0cd82-a499-43ea-913e-216472d30fc2")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "U2")
 					(unit 1)
@@ -4754,7 +4890,7 @@
 			(uuid "3fc30c74-4557-41b0-82d1-a7a373e200cd")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "C1")
 					(unit 1)
@@ -4888,7 +5024,7 @@
 			(uuid "395ea28e-bf34-4760-b900-99d028105919")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "#PWR011")
 					(unit 1)
@@ -5002,7 +5138,7 @@
 			(uuid "ec1383df-78dd-4893-a77b-713234b9cecc")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "L2")
 					(unit 1)
@@ -5135,7 +5271,7 @@
 			(uuid "bb8e3a32-62f2-4099-893e-9579fc38eb98")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "#PWR014")
 					(unit 1)
@@ -5333,7 +5469,7 @@
 			(uuid "fe3cfd7c-460d-42d9-be72-ac528dfc127b")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "C5")
 					(unit 1)
@@ -5639,7 +5775,7 @@
 			(uuid "10ff44dc-e8ee-4c2e-b5a1-fdaeab77d7ea")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "S1")
 					(unit 1)
@@ -5706,7 +5842,7 @@
 			(uuid "cde138da-91cd-4db4-a063-f6555e956e47")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "#PWR05")
 					(unit 1)
@@ -5772,7 +5908,7 @@
 			(uuid "8483150f-f8d6-4196-bcce-3d9d7f531395")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "#PWR02")
 					(unit 1)
@@ -5860,7 +5996,7 @@
 			(uuid "e770c34d-c039-49a6-9cec-3fae6a99c481")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "D4")
 					(unit 1)
@@ -5930,7 +6066,7 @@
 			(uuid "803fa124-7308-4976-a55a-348042e63bb2")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "R4")
 					(unit 1)
@@ -5996,7 +6132,7 @@
 			(uuid "c8f54458-efa8-4420-9492-1d0b643b8a6b")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "#PWR013")
 					(unit 1)
@@ -6066,7 +6202,7 @@
 			(uuid "5d45edef-5d7b-4769-b884-5ae268a5c402")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "C4")
 					(unit 1)
@@ -6154,7 +6290,7 @@
 			(uuid "0d2410e2-7d6a-4bfe-b405-03a9a48db9da")
 		)
 		(instances
-			(project ""
+			(project "minipower"
 				(path "/51d41016-db4f-4152-8650-f97e8de60346"
 					(reference "D1")
 					(unit 1)
